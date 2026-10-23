@@ -1,0 +1,23 @@
+{
+  "name": "Gosminha Finanças",
+  "short_name": "Gosminha",
+  "description": "Controle financeiro fofinho: gastos, divisão do salário, metas e rendimentos das caixinhas.",
+  "lang": "pt-BR",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef9f1",
+  "theme_color": "#86e3a8",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Novo lançamento", "url": "./#lancamentos", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Metas", "url": "./#plano", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
